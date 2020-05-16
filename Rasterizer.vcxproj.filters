@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Triangle">
+      <UniqueIdentifier>{78a172cd-7199-45bc-b57b-2cf6f3343078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{828947b6-f23b-4185-ada2-c60222ee8048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{f21fcf62-86ca-47a7-9397-ff2ea31e8be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Other">
+      <UniqueIdentifier>{ef5cdc66-085c-41cc-b6fb-269a7b76dc66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other">
+      <UniqueIdentifier>{b0ac8e25-ab66-4a27-87de-b83e8a961c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Triangle">
+      <UniqueIdentifier>{41187dee-f5eb-4be0-8b78-ba029922f3da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Suth-Hodg.h">
+      <Filter>Header Files\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec4.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat4.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Rasterizer.h">
+      <Filter>Header Files\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Suth-Hodg.cpp">
+      <Filter>Source Files\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Mat4.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec3.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec4.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Rasterizer.cpp">
+      <Filter>Source Files\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Rasterizer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
