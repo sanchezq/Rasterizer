@@ -1,0 +1,73 @@
+/!\ ASSETS FOLDER IS NOT COMPLETE ON GITHUB /!\
+-> Some features are unavailable
+
+Inputs:
+
+"1" : Fait apparaitre un triangle avec l'interpollation de couleurs
+"2" : Fait apparaitre un triangle et un cube pour montrer le Z-Buffer
+"3" : Fait apparaitre une sphere
+"4" : Fait apparaitre un cube avec une texture
+"5" : Fait apparaitre 2 triangle pour monter l'alpha blending
+"6" : Fait apparaitre un model 3D (a partir d'un fichier .obj que l'on a lu avec notre parser) // .obj not on github, try "0"
+"7" : Fait apparaitre une directionnal light
+"8" : Fait apparaitre une light qui ne possede qu'une composante ambiante
+"9" : Enleve toutes les lights
+"0" : Fait apparaitre un model 3D (le meme que le premier, mais le fichier original avec beaucoup plus de vertex)
+
+"w" : Deplacer la camera vers l'avant
+"a" : Deplacer la camera vers la gauche
+"s" : Deplacer la camera vers l'arriere
+"d" : Deplacer la camera vers la droite
+
+"UP" : Tourne la camera verticalement vers le haut
+"DOWN" : Tourne la camera verticalement vers le bas
+"LEFT" : Tourne la camera horizontalement vers la gauche
+"RIGHT" : Tourne la camera horizontalement vers la droite
+
+"x" : Activer/Desactiver la rotation de l'objet a l'ecran sur l'axe X
+"y" : Activer/Desactiver la rotation de l'objet a l'ecran sur l'axe Y
+"z" : Activer/Desactiver la rotation de l'objet a l'ecran sur l'axe Z
+
+"F1" : Activer/Desactiver le wireframe
+"F2" : Activer/Desactiver le back-face culling
+
+
+
+Petit bonus:
+
+- Les FPS sont affiche dans la console
+
+
+Pas fait:
+
+- L'anti-alliasing
+- Les textures ne sont pas geres dans l'object reader
+
+
+
+Problemes / bug:
+
+- Les lumieres eclaire l'avant de l'objet si on la place devant (ca c'est normal) mais elle eclaire aussi l'arriere de l'objet (et la ce n'est pas normal)
+- Notre light est une directionnal light et non une point light
+- Il y a une "colonne" qui apparait au milieu de notre sphere (il y a un probleme au niveau de notre algorithme)
+
+- Ce n'est pas vraiment un bug mais nous aurions pu optimiser nos performances a differents endroits de notre programme
+
+
+
+Fait:
+
+- Draw un triangle, une sphere, un cube
+- Le cliping
+- Interpollation des couleurs
+- Le Z-Buffer
+- L'eclairage (directionnal light)
+- La projection
+- Les textures
+- Le wireframe
+- L'alpha-blending
+- Le back-face culling
+- La camera
+- L'object reader
+
+
